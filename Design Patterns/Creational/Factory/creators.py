@@ -1,23 +1,6 @@
 from abc import ABC, abstractmethod
-
-class Vehicle(ABC):
-    """
-    Product Abstact Class: Declares the operations that all concrete products must implement.
-    """
-    @abstractmethod
-    def drive(self):
-        pass
-
-class Car(Vehicle):
-    """
-    Concrete Product 1: Implements the Product interface with Car functionality.
-    """
-    def drive(self):
-        return "Driving a car"
-
-class Bike(Vehicle):
-    def drive(self): # Concrete product 2
-        return "Riding a bike"
+from car import Car
+from bike import Bike
 
 class VehicleFactory(ABC):
     """
@@ -50,17 +33,4 @@ class CarFactory(VehicleFactory):
     
 class BikeFactory(VehicleFactory):
     def create_vehicle(self): # Concrete Creator 2
-        return Bike()
-    
-def client_code(factory):
-    """
-    The client code accepts any factory subclass and calls its create_vehicle method. This pattern decouples the client from specific product classes (Car, Bike) and works with products through the Vehicle common interface.
-    """
-    vehicle = factory.create_vehicle()
-    print(vehicle.drive())
-    
-car_factory = CarFactory()
-bike_factory = BikeFactory()
-
-client_code(car_factory)
-client_code(bike_factory)
+        return Bike()    

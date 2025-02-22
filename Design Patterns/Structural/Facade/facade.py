@@ -52,11 +52,10 @@ class ATMFacade:
             print("Invalid PIN.")
             return False
         
-        balance = self.account_manager.check_balance()
-        
         if self.account_manager.withdraw(amount):
             self.cash_dispenser.dispense_cash(amount)
             print("Transaction completed successfully.\n")
+
             return True
         else:
             print("Transaction failed.\n")

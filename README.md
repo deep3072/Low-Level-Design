@@ -67,8 +67,10 @@ This section shows an example implementations of standard design patterns that a
 ## Design Problems 🚀
 This section features some real-world design challenges that allows to put object-oriented programming, design patterns, and SOLID principles into practice. Each project simulates a common software scenario, offering hands-on experience to refine low-level design skills.
 
-- [Design Parking Lot](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/parkinglot)
 - [Design Snakes and Ladders Game](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/snakesandladder)
 - [Design Tic Tac Toe Game](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/tictactoe)
 - [Design Vending Machine](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/vendingmachine)
+- [Design basic PubSub system](https://github.com/deep3072/Low-Level-Design/tree/main/Design%20Patterns/Behavioral/Observer)
 - [Design Logging System](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/loggingsystem)
+- [Design Parking Lot](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/parkinglot)
+- [Design an Elevator System](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/elevatorsystem)

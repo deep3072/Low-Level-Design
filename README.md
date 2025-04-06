@@ -74,3 +74,4 @@ This section features some real-world design challenges that allows to put objec
 - [Design Logging System](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/loggingsystem)
 - [Design Parking Lot](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/parkinglot)
 - [Design an Elevator System](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/elevatorsystem)
+- [Design a Natural Language Query Engine](https://github.com/deep3072/Low-Level-Design/tree/main/LLD%20Problems/naturallanguagequeryengine)

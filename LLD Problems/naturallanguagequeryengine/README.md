@@ -8,6 +8,10 @@
 4. The generated SQL query should be executed on the uploaded CSV data.
 5. The system should return the results of the SQL query in a structured format.
 
+## Class Diagram
+![Class Diagram](https://github.com/user-attachments/assets/e29fc9b7-b6ea-498a-888b-466d22523651)
+
+
 ## Classes, Interfaces, and Enums
 
 1. `CSVLoader`: Responsible for loading the CSV file and creating a temporary SQLite table from it.
@@ -20,3 +24,4 @@
 8. `SQLExecutor`: Executes the generated SQL query against the SQLite database and returns the results.
 9. `QueryFacade`: Serves as the main orchestrator, managing the complete flow from CSV loading to LLM prompt generation to SQL execution.
 10. `Demo`: Demonstrates the usage of the system by creating a mock CSV, initializing the engine, and running a natural language query through the `QueryFacade`.
+
